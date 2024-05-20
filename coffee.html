@@ -8,58 +8,62 @@
     <link rel="stylesheet" href="coffee.css">
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <span>ballecoffe</span>
-            <ul>
+    <header>                
+        <nav>
+            <span class="logo">ballecoffe</span>
+            <ul class="menu">
                 <li><a>Home</a><li>
                 <li><a>Receitas</a></li>
                 <li><a>Novidades</a></li>
                 <li><a>Melhor avaliadas</a></li>
                 </ul>
-                <a>GitHub</a>
+                <a class="github">GitHub</a>
         </nav>
 
     </header>
     <main>
-        <section>
-            <header class="home">
-                <span>novidade</span>
-                <h1>Encontre a receita perfeita</h1>
-                <hr>
-                <h2>Explore dezenas de variações de bebida favorita entre os <strong>devs</strong> ao redor do mundo!</h2>
-            </header>
-            <div class="galeria">
-                    <figure><img src="imagens/cappuccino-1.jpg" alt="cappuccino-1"></figure>
-                    <figure><img src="imagens/cappuccino-2.jpg" alt="cappuccino-2"></figure>
-                   <figure><img src="imagens/cappuccino-3.jpg" alt=""></figure>
-                    <figure><img src="imagens/cappuccino-4.jpg" alt="cappuccino-4"></figure>
-                    <figure><img src="imagens/cappuccino-5.jpg" alt="cappuccino-5"></figure>
-                    <figure><img src="imagens/cappuccino-6.jpg" alt="cappuccino-6"></figure>
-                    <figure><img src="imagens/cappuccino-7.jpg" alt="cappuccino-7"></figure>
-                    <figure><img src="imagens/cappuccino-8.jpg" alt="cappuccino-8"></figure>
-                    <figure><img src="imagens/cappuccino-9.jpg" alt="cappuccino-9"></figure>
-                    <figure><img src="imagens/cappuccino-10.jpg" alt="cappuccino-10"></figure>
-                    <figure><img src="imagens/cappuccino-11.jpg" alt="cappuccino-11"></figure>
-                    <figure><img src="imagens/cappuccino-12.jpg" alt="cappuccino-12"></figure>
-            </div>
+       <div class="principal">
+           
+           <section class="hero">
+               <header class="home">
+                   <span class="destaque marrom">novidade</span>
+                   <h1>Encontre a receita perfeita!</h1>
+                   <hr>
+                   <h2 class="hero-sub">Explore dezenas de variações de bebida favorita entre os <strong>devs</strong> ao redor do mundo!</h2>
+               </header>
+               <div class="galeria">
+                       <figure><img src="imagens/cappuccino-1.jpg" alt="cappuccino-1"></figure>
+                       <figure><ig src="imagens/cappuccino-2.jpg" alt="cappuccino-2"></figure>
+                      <figure><ig src="imagens/cappuccino-3.jpg" alt=""></figure>
+                       <figure><img src="imagens/cappuccino-4.jpg" alt="cappuccino-4"></figure>
+                       <figure><img src="imagens/cappuccino-5.jpg" alt="cappuccino-5"></figure>
+                       <figure><img src="imagens/cappuccino-6.jpg" alt="cappuccino-6"></figure>
+                       <figure><img src="imagens/cappuccino-7.jpg" alt="cappuccino-7"></figure>
+                       <figure><img src="imagens/cappuccino-8.jpg" alt="cappuccino-8"></figure>
+                       <figure><img src="imagens/cappuccino-9.jpg" alt="cappuccino-9"></figure>
+                       <figure><img src="imagens/cappuccino-10.jpg" alt="cappuccino-10"></figure>
+                       <figure><img src="imagens/cappuccino-11.jpg" alt="cappuccino-11"></figure>
+                       <figure><img src="imagens/cappuccino-12.jpg" alt="cappuccino-12"></figure>
+               </div>
+           </section>
+       </div>
+        <section class="botao-container">
+            <button type="button"><img src="imagens/button.svg" alt="botão"></button>
         </section>
-        <section>
-            <button><img src="imagens/button.svg" alt="botão"></button>
-        </section>
-        <section>
-            <header>
-                <span>
+        <section class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque marrom">
                     RECEITAS
                 </span>
-                <h2>Confira as últimas receitas</h2>
-                <p>Dê uma olhada nas receitas mais amadas!</p>
+                <h2 class="receitas-titulo">Confira as últimas receitas</h2>
+                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
             </header>
 
-            <div>
-                <header>
-                    <div>
-                        <p id="yellow">EM ALTA</p>
+            <div class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                    <div class="receitas-card-cabecalho-detalhes">
+                        <span>EM ALTA</span> 
                         <h3>Cappuccino</h3>
                     </div>
                     <p>Extraordinário . 4/4</p>
@@ -70,6 +74,8 @@
                     <span>Rafaella Ballerini</span>
                 </div>
             </div>
+        </section>
+        <section>
             <div>
                 <p>NOVO </p>
                 <h3>Expresso</h3>
